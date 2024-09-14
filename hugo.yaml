@@ -1,0 +1,51 @@
+baseURL: https://sandhi-artha.github.io/
+languageCode: en-us
+title: Sandhi's Journey
+theme: PaperMod
+
+# website pages
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: research
+      name: Research
+      url: /research
+      weight: 40
+
+params:
+  # theme
+  showToc: false
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  hideMeta: false
+  defaultTheme: auto # to switch between dark or light according to browser theme
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  homeInfoParams:
+    Title: Welcome to my blog
+    Content: Hi 👋, I'm Sandhi Wangiyana, a PhD candidate from Warsaw University of Technology, Poland. I explore Deep Learning algorithms on Remote Sensing data, specifically Synthetic Aperture Radar (SAR). I love to write and explore new technologies. This blog documents my journey of learning.
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/sandhi-wangiyana/"
+    - name: "github"
+      url: "https://github.com/sandhi-artha/"
+    - name: "researchgate"
+      url: "https://www.researchgate.net/profile/Sandhi-Wangiyana"
+

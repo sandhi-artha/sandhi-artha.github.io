@@ -1,8 +1,8 @@
 ---
-title: "Test page"
-description: "Test"
+title: "Blank draft page"
+description: "This is a draft"
 date: 2024-09-09T00:00:00
-draft: false
+draft: True
 tags: ["thoughts"]
 ---
 
